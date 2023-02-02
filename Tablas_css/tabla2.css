@@ -1,0 +1,15 @@
+.blue{
+    border: 2px solid blue;
+    border-collapse: separate;
+    border-spacing: 5px;
+    
+}
+.red{
+    border: 2px solid red;
+    border-collapse: separate;
+    border-spacing: 5px 30px;
+}
+td{
+    border: 1px solid black;
+    padding:  5px;
+}

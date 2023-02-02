@@ -1,0 +1,12 @@
+.collapse {
+	border-collapse: collapse;
+	border: 2px solid red;
+}
+.separate {
+	border-collapse: separate;
+	border: 2px solid green;
+}
+td {
+	padding: 5px;
+	border: 1px solid black;
+}

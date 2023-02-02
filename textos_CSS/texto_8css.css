@@ -1,0 +1,44 @@
+/*Estilo pra comic sans*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: #C6D9EE;
+    text-align: justify;
+  }
+  h1{
+    text-align: right;
+    font-size: 3em;
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-variant: small-caps;
+  }
+  p{
+    text-indent: 3em;
+    line-height: 200%;
+  }
+  b{
+    color: red;
+  }
+  strong{
+    color:chocolate;
+  }
+  i{
+    background-color: white;
+    color: green;
+  }
+  time{
+    color: darkorange;
+  }
+  address{
+    font-size: 0.8em;
+    text-align: center;
+  }
+  .comic{
+    color: red;
+    font-size: 1.2em;
+    font-family: "Comic Sans", cursive;
+  }

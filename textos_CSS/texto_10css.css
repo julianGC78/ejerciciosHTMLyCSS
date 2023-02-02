@@ -1,0 +1,40 @@
+/*Estilo ejercico 10*/
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Lobster&family=Rubik+Vinyl&display=swap;');
+body{
+background-color: #deaaee;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Caramel', cursive;
+    letter-spacing: 0.8rem;
+   
+    font-size: 300%;
+    
+}
+p.intro{
+    text-align: center;
+    color: black;
+    margin-left: 30%;
+    font-size: 0.8rem;
+    
+   
+
+}
+p.latin{
+    text-align: left;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 150%;
+
+}
+p.espa{
+    text-align: right;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 200%;
+
+}
+cite{
+    text-decoration: underline;
+}

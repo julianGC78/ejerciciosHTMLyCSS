@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+body {
+    font-size: 16px;
+    color: black;
+    margin: 0px;
+    background-color: rgb(230, 229, 229);
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2,
+h3 {
+    color: black;
+    margin: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#G {
+    font-size: 70px;
+    text-align: center;
+    color: red;
+    letter-spacing: 10px;
+    padding: 0;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.float {
+    float: left;
+    text-align: center;
+}
+
+div a {
+    margin: 5px;
+}
+div a img{
+    margin: 8px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-collapse: collapse;
+    
+}
+th {
+    background-color: #6D67E4;
+    color: black;
+    height: 35px;
+}
+table, th, td {
+    border: 2px solid;
+  }
+
+.float a img:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+img {
+    border-bottom: 3px red solid;
+}
+
+.cabecera {
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.cabecera img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 0;
+}
+
+.cuerpo img {
+    width: 98%;
+    height: auto;
+    margin: 15px;
+}
+
+img.izquierda {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+img.derecha {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+    background-color: #a09797;
+}
+
+p {
+    margin: 25px;
+
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:hover {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+p.C::first-letter {
+    font-weight: bold;
+    color: red;
+    font-size: 60px;
+
+}
+
+dt,
+dd {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 25px;
+    list-style-type: square;
+}
+
+ol {
+    margin: 15px;
+    list-style-type: initial;
+}
+
+.menu {
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+   
+}
+
+.menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgb(230, 229, 229);
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+

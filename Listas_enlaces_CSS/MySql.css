@@ -1,0 +1,28 @@
+/*estilos para MySql*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+
+
+body{
+    background-color: #E7F3EF;
+}
+h1{
+    font-family: 'Source Serif Pro', serif;
+    background-color: #448D76;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(56, 54, 52);
+    text-shadow: 3px 3px 3px #ffffff;
+    
+}
+h2{
+    background-color: #448D76;
+    border-radius: 10px;
+    color: rgb(56, 54, 52);
+    padding-left: 10px;
+}
+ul{
+    list-style-type: georgian;
+    background-color: #79BEA8;
+    border-style: dotted;
+    
+}

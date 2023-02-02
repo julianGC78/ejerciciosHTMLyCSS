@@ -1,0 +1,37 @@
+/* CSS para las citas de vigilis*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap');
+body{
+background-color: #dbaaee;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fascinate Inline', cursive;
+    letter-spacing: 0.8rem;
+}
+p.intro{
+    text-align: center;
+    color: black;
+    margin-left: 30%;
+    font-size: 0.8rem;
+   
+
+}
+p.latin{
+    text-align: left;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+
+}
+p.espa{
+    text-align: right;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+
+}
+cite{
+    text-decoration: underline;
+}
