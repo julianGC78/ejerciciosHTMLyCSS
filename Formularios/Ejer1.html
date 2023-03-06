@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="Ejer1.css">
+</head>
+<body>
+    <h2>Datos de cliente</h2>
+    <form action="#" method="get">
+
+        <label for="fname">Nombre :</label>
+        <input type="text" id="nombre" name="nombre" ><br>
+
+        <label for="NIF">NIF:</label>
+        <input type="text" id="NIF" name="NIF"><br>
+        <br>
+
+       <label class="etiqueta">Tipo de Habitacion:</label>
+        <input type="radio" name ="tipo" value="I">Individual
+        <br>       
+        <input type="radio" name="tipo" value="D" checked="checked">Doble
+        <br>
+        <br>
+
+        <label class="etiqueta">Opciones:</label>
+
+        <input type="checkbox" id="desayuno" name="edesayuno" value="Dh">Desayuno en la habitación
+        <br>
+        <input type="checkbox" id="jacuzzi" name="jacuzzi" value="JZ">Jcuzzi
+        <br>
+        <input type="checkbox" id="wi-fi" name="wi-fi" value="wi-fi" checked="checked">Wi-Fi
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>
